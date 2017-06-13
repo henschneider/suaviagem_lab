@@ -240,6 +240,7 @@ th {
   }
   .navbar {
     display: none;
+	background:url(img/bg/padrao.png);
   }
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -4172,6 +4173,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
+	background-color:  red;  
+	background:url(img/bg/padrao.png);
     float: left;
   }
 }
@@ -4224,6 +4227,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
+  background:url(img/bg/padrao.png);
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -4508,18 +4512,21 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
+	background:url(img/bg/padrao.png);
   color: #333;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
+	background:url(img/bg/padrao.png);
   color: #555;
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
+	background:url(img/bg/padrao.png);
   color: #ccc;
   background-color: transparent;
 }
@@ -6766,3 +6773,7 @@ width:248px;	margin: 0 auto;	margin-top:30px;	color: white;
 	border: none;
     border-bottom: 2px solid red;
 	}
+
+.fundonnav{
+	background:url(img/bg/padrao.png);
+}
