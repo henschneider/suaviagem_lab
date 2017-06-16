@@ -1,49 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Sua Viagem</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-</head>
+<html lang="pt-br">
+  <head>
+    <title>Sua Viagem</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import style.css -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  </head>
 
-<style>
-body{
-	background:url(img/bg/padrao.png);
-}
-</style>
+  <body>
+  <header class="container">
+    <!-- Logo -->
+    <img id="logotipo" class="responsive-img" src="img/icon/sv_logo.png"/>
+  </header>
+  <section id="login" class="container">
+  <!-- Campos de login -->
+    <form action="#">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Insira seu e-mail" id="email" type="email" required="true" class="validate white-text"/>
+          <label class="white-text login-label" for="email">E-mail</label>
+        </div>
+        <div class="input-field col s12">
+          <input placeholder="Insira sua senha" id="password" type="password" required="true" class="validate white-text"/>
+          <label class="white-text login-label" for="password">Senha</label>
+        </div>
+      </div>
+      <!-- Botoes -->
+      <div class="center-align">
+        <div class="row">
+          <button class="btn white grey-text text-darken-2 button-submit" type="submit" name="action">Entrar</button>
+        </div>
+        <div class="row">
+          <button id="facebook-button" class="btn button-submit" type="submit" name="action">Entre com o facebook</button>
+        </div>
+      </div>
+      </div>
+    </form>
+  </section>
+  <footer class="center-align">
+    <p class="white-text">Ainda não tem uma conta? <span>Cadastre-se</span></p>
+  </footer>
 
-<body>
-	
-<!-- Logo -->
-<div style="margin-top:30px;">
-    <img src="img/icon/sv_logo.png" width="248" height="167" class="img-responsive alinharcentro" />
-</div>
-
-<!-- Campos de login -->
-<div class="formulario">
-  <form action="/action_page.php">
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input style="color:#fff;" type="email" class="form-control" id="email" placeholder="Insira seu email" name="email">
-    </div>
-    <div class="form-group">
-      <label for="pwd">Senha</label>
-      <input type="password" class="form-control" id="pwd" placeholder="Insira sua senha" name="pwd">
-    </div>
-</form>
-
-<!-- Botoes -->
-<div style="margin-top:30px;"> 
-	<a href="#"><img src="img/btn/entrar.png" width="248" height="44" class="img-responsive alinharcentro" /></a>
-    <a href="#"><img src="img/btn/facebook.png" width="248" height="44" class="img-responsive alinharcentro" style="margin-top:15px;" /></a>
-</div>
-<p style="text-align:center; margin-top:15px; color:#FFFFFF;">Ainda não tem uma conta? <a href="#" style="color: white;"><br>
-Cadastre-se</a></p>    
-    
-</body>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>    
+  </body>
 </html>

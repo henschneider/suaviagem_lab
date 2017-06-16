@@ -1,0 +1,39 @@
+/* General */
+body{
+	background-image: url(../img/bg/padrao.png);
+	background-position: center;
+	background-size: auto;
+}
+
+
+/* Header */
+#logotipo {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+/* Form */
+
+/* Button Form */
+#facebook-button {
+	background-color: #3B5998;
+}
+
+.button-submit {
+	border-radius: 20px;
+	width: 60%;
+	height: 40px;
+}
+
+
+/* Footer */
+footer {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+footer p span {
+	font-weight: bold;
+	text-decoration: underline;
+}
