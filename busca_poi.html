@@ -15,34 +15,32 @@
   </head>
 
   <body>
-  
   <!-- Nav -->
   <div class="navbar-fixed">
-  <nav class="lighten-1" role="navigation" style="background:url(img/bg/padrao.png);">
-    <div class="nav-wrapper container"><a id="logo-container">O que deseja fazer?</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Sua viagem</a></li>
-      </ul>
+    <nav class="lighten-1 z-depth-0 transparent" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container">O que deseja fazer?</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
-      <ul id="nav-mobile" class="side-nav" style="left: 0px;">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Criar um roteiro</a></li>
-        <li><a href="#">Meus roteiros</a></li>
-        <li><a href="#">Explorar roteiros</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-</div>
+  <!-- Menu Mobile -->
+  <ul id="nav-mobile" class="side-nav">
+    <li><a href="#">Criar um roteiro</a></li>
+    <li><a href="#">Meus roteiros</a></li>
+    <li><a href="#">Explorar roteiros</a></li>
+    <li class="active"><a href="busca_poi.html">Buscar pontos de interesse</a></li>
+  </ul>
 
 <!-- Input form -->
  <div class="row" style="margin-top: 50%;">
     <div class="col s12">
       <div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix" style="font-size:36px; color:#FFF;">search</i>
-          <input type="text" id="autocomplete-input" class="autocomplete">
-          <label for="autocomplete-input" style="color:#FFF;">Faça sua busca aqui</label>
+          <a href="seleciona_categoria.html"><i class="material-icons prefix white-text search-icon center-align">search</i></a>
+          <input type="text" id="autocomplete-input" class="autocomplete white-text">
+          <label for="autocomplete-input" class="white-text">Faça sua busca aqui</label>
         </div>
       </div>
     </div>
