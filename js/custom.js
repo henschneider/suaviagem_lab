@@ -1,10 +1,12 @@
 // JavaScript Document
 
+/* Menu mobile collapse */
 $( document ).ready(function(){
     $(".button-collapse").sideNav();
 });
 
 
+/* Autocomplete */
 $('input.autocomplete').autocomplete({
     data: {
       "Apple": null,
