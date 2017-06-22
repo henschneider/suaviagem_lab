@@ -45,7 +45,7 @@ footer p span {
 
 /* Opções usuario */
 #opcoes-usuario {
-	padding-top: 150px;
+	padding-top: 10%;
 	padding-left: 30px;
 }
 
@@ -55,7 +55,7 @@ footer p span {
 }
 
 .footer-usuario {
-	padding-top: 40%;
+	margin-top: 50%;
 }
 
 .user-name {
@@ -67,4 +67,9 @@ footer p span {
 .city-user {
 	font-size: 16px;
 	margin-top: 5px;
+}
+
+/* Busca POI */
+.search-icon {
+	padding-top: 8px;
 }

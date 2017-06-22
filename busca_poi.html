@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Sua Viagem</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import style.css -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    
+    
+  </head>
+
+  <body>
+  <!-- Nav -->
+  <div class="navbar-fixed">
+    <nav class="lighten-1 z-depth-0 transparent" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container">O que deseja fazer?</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Menu Mobile -->
+  <ul id="nav-mobile" class="side-nav">
+    <li><a href="#">Criar um roteiro</a></li>
+    <li><a href="#">Meus roteiros</a></li>
+    <li><a href="#">Explorar roteiros</a></li>
+    <li class="active"><a href="busca_poi.html">Buscar pontos de interesse</a></li>
+  </ul>
+
+<!-- Input form -->
+ <div class="row" style="margin-top: 50%;">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <a href="seleciona_categoria.html"><i class="material-icons prefix white-text search-icon center-align">search</i></a>
+          <input type="text" id="autocomplete-input" class="autocomplete white-text">
+          <label for="autocomplete-input" class="white-text">Faça sua busca aqui</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Funcao do menu mobile que nao funciona ainda -->
+  <script type="text/javascript" src="js/custom.js"></script>    
+  </body>
+</html>
