@@ -72,4 +72,26 @@ footer p span {
 /* Busca POI */
 .search-icon {
 	padding-top: 8px;
+	margin-top: 1rem;
+}
+
+.search-box {
+	margin-top: 50%;
+}
+
+/* color #00c7ad; */
+
+/* Categorias */
+
+.button-collection {
+	margin-top: 100px;
+}
+
+.button-categorias {
+	width: 70%;
+	color: #00c7ad;
+}
+
+.button-icon {
+	padding-right: 10px;
 }
