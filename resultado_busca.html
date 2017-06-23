@@ -14,29 +14,36 @@
     
   </head>
 
-  <body style="background-color: #fff; background-image: none;">
-  
+  <body>
   <!-- Nav -->
   <div class="navbar-fixed">
-  <nav class="lighten-1" role="navigation" style="background:url(img/bg/padrao.png);">
-    <div class="nav-wrapper container"><a id="logo-container">O que deseja fazer?</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Sua viagem</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav" style="left: 0px;">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Criar um roteiro</a></li>
-        <li><a href="#">Meus roteiros</a></li>
-        <li><a href="#">Explorar roteiros</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <nav class="lighten-1 z-depth-0 transparent" role="navigation">
+        <div class="nav-wrapper container">
+          <div class="col s12 center-align">
+            <a href="#" class="left"><i class="material-icons">arrow_back</i></a>
+            <span>O que deseja fazer?</span>
+            <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
-</div>
 
-<!-- Categorias -->
+    <!-- Menu Mobile -->
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#">Criar um roteiro</a></li>
+      <li><a href="#">Meus roteiros</a></li>
+      <li><a href="#">Explorar roteiros</a></li>
+      <li class="active"><a href="busca_poi.html">Buscar pontos de interesse</a></li>
+    </ul>
+  </div>
 
+  <!-- Categorias -->
+  <div class="col s12 white">
+    <img src="img/poi/1.png">
+    <h2>Título</h2>
+    <p>Conteúdo do local</p>
+  </div>
+            
  
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
