@@ -95,3 +95,17 @@ footer p span {
 .button-icon {
 	padding-right: 10px;
 }
+
+/* Nav */
+
+.nav-wrapper_secundario{
+	background-color: #00c7ad;	
+}
+
+/* Card new */
+
+.card_margin{
+	margin-top: -30px;
+	padding-top: -30px;
+		 
+}
