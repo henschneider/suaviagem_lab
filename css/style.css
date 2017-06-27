@@ -104,8 +104,28 @@ footer p span {
 
 /* Card new */
 
-.card_margin{
-	margin-top: -30px;
-	padding-top: -30px;
-		 
+.avaliacao {
+	padding-top: 20px;
+	width: 70%;
+}
+
+.card-image {
+	padding-left: 10px;
+}
+
+.card-horizontal {
+	margin: 0;
+}
+
+/* Banner POI */
+
+.banner-categoria-poi {
+	background-image: url(../img/poi/fundo_principal.png);
+	background-size: cover;
+	position: center;
+	height: 250px;
+}
+
+.text-banner {
+	padding-top: 50px;
 }
