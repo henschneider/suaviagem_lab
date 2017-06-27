@@ -72,4 +72,60 @@ footer p span {
 /* Busca POI */
 .search-icon {
 	padding-top: 8px;
+	margin-top: 1rem;
+}
+
+.search-box {
+	margin-top: 50%;
+}
+
+/* color #00c7ad; */
+
+/* Categorias */
+
+.button-collection {
+	margin-top: 100px;
+}
+
+.button-categorias {
+	width: 70%;
+	color: #00c7ad;
+}
+
+.button-icon {
+	padding-right: 10px;
+}
+
+/* Nav */
+
+.nav-wrapper_secundario{
+	background-color: #00c7ad;	
+}
+
+/* Card new */
+
+.avaliacao {
+	padding-top: 20px;
+	width: 70%;
+}
+
+.card-image {
+	padding-left: 10px;
+}
+
+.card-horizontal {
+	margin: 0;
+}
+
+/* Banner POI */
+
+.banner-categoria-poi {
+	background-image: url(../img/poi/fundo_principal.png);
+	background-size: cover;
+	position: center;
+	height: 250px;
+}
+
+.text-banner {
+	padding-top: 50px;
 }

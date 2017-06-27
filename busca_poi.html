@@ -18,11 +18,14 @@
   <!-- Nav -->
   <div class="navbar-fixed">
     <nav class="lighten-1 z-depth-0 transparent" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container">O que deseja fazer?</a>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
+        <div class="nav-wrapper container">
+          <div class="col s12 center-align">
+            <a href="opcoes-usuario.html" class="left"><i class="material-icons">arrow_back</i></a>
+            <span>O que deseja fazer?</span>
+            <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+      </nav>
   </div>
 
   <!-- Menu Mobile -->
@@ -34,18 +37,17 @@
   </ul>
 
 <!-- Input form -->
- <div class="row" style="margin-top: 50%;">
+ <div class="row search-box">
     <div class="col s12">
       <div class="row">
-        <div class="input-field col s12">
-          <a href="seleciona_categoria.html"><i class="material-icons prefix white-text search-icon center-align">search</i></a>
+        <div class="input-field col s10">
           <input type="text" id="autocomplete-input" class="autocomplete white-text">
           <label for="autocomplete-input" class="white-text">Faça sua busca aqui</label>
         </div>
+        <a href="seleciona_categoria.html"><i class="material-icons prefix white-text search-icon center-align">search</i></a>
       </div>
     </div>
   </div>
-  
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

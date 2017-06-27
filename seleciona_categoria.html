@@ -10,61 +10,63 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Import style.css -->
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
-    
-    
   </head>
-
   <body>
   
-  <!-- Nav -->
-  <div class="navbar-fixed">
-    <nav class="lighten-1 z-depth-0 transparent" role="navigation">
-      <div class="nav-wrapper container">
-        <a id="logo-container">O que deseja fazer?</a>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <!-- Nav -->
+    <div class="navbar-fixed">
+      <nav class="lighten-1 z-depth-0 transparent" role="navigation">
+        <div class="nav-wrapper container">
+          <div class="col s12 center-align">
+            <a href="busca_poi.html" class="left"><i class="material-icons">arrow_back</i></a>
+            <span>O que deseja fazer?</span>
+            <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Menu Mobile -->
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="#">Criar um roteiro</a></li>
+      <li><a href="#">Meus roteiros</a></li>
+      <li><a href="#">Explorar roteiros</a></li>
+      <li class="active"><a href="busca_poi.html">Buscar pontos de interesse</a></li>
+    </ul>
+
+    <!-- Categorias -->
+    <div class="container center-align button-collection">
+      <div class="row">
+        <div class="col s12">
+          <a href="resultado_busca.html" class="btn-large button-categorias white"><i class="material-icons left">android</i>Café</a>
+        </div>
       </div>
-    </nav>
-  </div>
+      <div class="row">
+        <div class="col s12">
+          <a href="resultado_busca.html" class="btn-large button-categorias white"><i class="material-icons left">check_circle</i>Comer</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <a href="resultado_busca.html" class="btn-large button-categorias white"><i class="material-icons left">pregnant_woman</i>Baladas</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <a href="resultado_busca.html" class="btn-large button-categorias white"><i class="material-icons left">thumb_up</i>Drinks</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <a href="resultado_busca.html" class="btn-large button-categorias white"><i class="material-icons left">cloud</i>Entreterimento</a>
+        </div>
+      </div>
+    </div>
 
-  <!-- Menu Mobile -->
-  <ul id="nav-mobile" class="side-nav">
-    <li><a href="#">Criar um roteiro</a></li>
-    <li><a href="#">Meus roteiros</a></li>
-    <li><a href="#">Explorar roteiros</a></li>
-    <li class="active"><a href="busca_poi.html">Buscar pontos de interesse</a></li>
-  </ul>
-
-<!-- Categorias -->
-<div class="white">
-  <div class="row">
-          <div class="col s10"> <a href="#"><img src="img/categorias/cafe.png" class="responsive-img center-align card-image" style="padding-left: 20%; margin-top: 30px;" ></a>
-  		</div>
-  </div>
-
-  <div class="row">
-          <div class="col s10"> <a href="#"><img src="img/categorias/comer.png" class="responsive-img center-align card-image" style="padding-left: 20%; margin-top: 10px;" ></a>
-  		</div>
-  </div>
-
-  <div class="row">
-          <div class="col s10"> <a href="#"><img src="img/categorias/baladas.png" class="responsive-img center-align card-image" style="padding-left: 20%; margin-top: 10px;" ></a>
-  		</div>
-  </div>	          	          	          	          
-   
-  <div class="row">
-          <div class="col s10"> <a href="#"><img src="img/categorias/drinks.png" class="responsive-img center-align card-image" style="padding-left: 20%; margin-top: 10px;" ></a>
-  		</div>
-  </div>
-      
-  <div class="row">
-          <div class="col s10"> <a href="#"><img src="img/categorias/entretenimento.png" class="responsive-img center-align card-image" style="padding-left: 20%; margin-top: 10px; padding-bottom: 30px;" ></a>
-  		</div>
-  </div>
-</div> 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <!-- Funcao do menu mobile que nao funciona ainda -->
-  <script type="text/javascript" src="js/custom.js"></script>    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Funcao do menu mobile que nao funciona ainda -->
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>
